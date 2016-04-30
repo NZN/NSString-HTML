@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.ios.deployment_target = '4.3.5'
   s.osx.deployment_target = '10.6'
+  s.watchos.deployment_target = '2.0'
   
   s.authors = { 'Johan Kool' => 'http://www.koolistov.net/', 'Bruno Tortato Furtado' => 'bruno.furtado@gruponzn.com' }
   
